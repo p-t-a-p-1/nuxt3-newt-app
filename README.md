@@ -1,63 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + NewtでのJamstackなサイト（社内勉強会用）
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 動作環境
 
-## Setup
-
-Make sure to install the dependencies:
+※ [Volta](https://volta.sh/)お使いの方はpinしているため自動で切り替わります。
 
 ```bash
-# npm
-npm install
+$ node -v
+v18.13.0
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+$ yarn -v
+1.22.19
 ```
 
-## Development Server
+## 動作方法
 
-Start the development server on `http://localhost:3000`:
+※ fork or clone
 
 ```bash
-# npm
-npm run dev
+cd nuxt3-newt-app
 
-# pnpm
-pnpm run dev
+yarn install
 
-# yarn
 yarn dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
