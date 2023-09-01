@@ -13,4 +13,11 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  runtimeConfig: {
+    public: {
+      wpUrl: '',
+      companyUrl: '',
+    },
+  },
 })
