@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     // Docs: https://tailwindcss.com/docs/typography-plugin
-    require('@tailwindcss/typography'),
+    // require('@tailwindcss/typography'),
     // Docs: https://daisyui.com/docs
     require('daisyui'),
   ],
