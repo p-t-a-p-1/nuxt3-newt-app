@@ -33,5 +33,9 @@
   "volta": {
     "node": "18.13.0",
     "yarn": "1.22.19"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "newt-client-js": "^3.2.7"
   }
 }
