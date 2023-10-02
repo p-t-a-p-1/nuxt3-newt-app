@@ -21,5 +21,8 @@ cd nuxt3-newt-app
 
 yarn install
 
+# Notionの環境変数を追記
+touch .env
+
 yarn dev
 ```

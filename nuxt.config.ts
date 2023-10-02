@@ -19,5 +19,9 @@ export default defineNuxtConfig({
       wpUrl: '',
       companyUrl: '',
     },
+    newt: {
+      spaceUid: '',
+      cdnApiToken: '',
+    },
   },
 })
